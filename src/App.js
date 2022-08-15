@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Lorem from "./component/Loarem/Lorem";
+import Slider from "./component/Slider/Slider";
+import Tabs from "./component/Tabs/Tabs";
+import MainReviews from "./component/Reviews/MainReviews";
+import Birthday from "./component/Birthday/Birthday";
+import MainTours from "./component/Tours/MainTours";
+import MainAccording from "./component/According/MainAccording";
+import MenuApp from "./component/Menu/MenuApp";
+import Color from "./component/Color/Color";
+import Grocy from "./component/Grocy/Grocy";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Birthday />
+      <MainTours />
+      <MainReviews />
+      <MainAccording />
+      <MenuApp />
+      <Tabs />
+      <Slider />
+      <Lorem /> */}
+      <Color />
+      {/* <Grocy /> */}
     </div>
   );
 }
